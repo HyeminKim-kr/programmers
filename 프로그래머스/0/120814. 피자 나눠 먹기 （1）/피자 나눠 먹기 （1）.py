@@ -1,5 +1,5 @@
-import math
-
 def solution(n):
-    answer = math.ceil(n / 7)
-    return answer
+    if n%7 == 0:
+        return n//7
+    if n%7 != 0:
+        return n//7 + 1
