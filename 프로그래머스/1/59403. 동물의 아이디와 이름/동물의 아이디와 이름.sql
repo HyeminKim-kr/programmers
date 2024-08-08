@@ -1,2 +1,2 @@
 SELECT animal_id, name
-FROM animal_ins
+FROM animal_ins;
