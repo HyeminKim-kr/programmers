@@ -1,6 +1,5 @@
 def solution(money):
-    price_per_cup = 5500
-    max_cups = money // price_per_cup
-    remaining_money = money % price_per_cup
-    answer = [max_cups, remaining_money]
+    max_cups = money // 5500
+    rest_money = money % 5500
+    answer = [max_cups, rest_money]
     return answer
